@@ -4,7 +4,7 @@ Java Version:
 JavaFX Version:
 Database:
 
-How to Install and Run the code:
+# How to Install and Run the code:
 
-Class Diagram:
-Description of OO design:
+# Class Diagram:
+# Description of OO design:
