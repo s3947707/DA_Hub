@@ -1,6 +1,5 @@
 # Data Analytics Hub
 > **Name:** Chloe Hoffman
-> 
 > **Student Number:** s3947707
 
 - **IDE:** Eclipse
