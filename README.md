@@ -1,4 +1,4 @@
-# Data Analytics Hub
+# The Data Analytics Hub
 > Something
 
 - **Student Number:** s3947707
