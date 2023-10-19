@@ -1,5 +1,4 @@
 # Data Analytics Hub
-> The Data Analytics Hub is a GUI application developed to allow users to import, analyze, and extract insights from social media data.
 
 - **Student Number:** s3947707
 - **IDE:** Eclipse
@@ -9,4 +8,5 @@
 - **Class Diagram:** 
 
 ## How to Install and Run the code:
-1. 
+> 1. Something something
+> 2. Something something
