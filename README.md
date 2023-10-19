@@ -2,8 +2,8 @@
 - **IDE:** Eclipse
 - **Java Version:** 20.0.1
 - **JavaFX Version:** 17.0.8
-- **Database:** ~
+- **Database:** MySQL 8.0.34
+- **'Class Diagram'**
 
 ## How to Install and Run the code:
-
-## Class Diagram:
+1. 
