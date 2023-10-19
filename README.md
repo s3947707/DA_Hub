@@ -4,7 +4,7 @@
 - **Student Number:** s3947707
 - **IDE:** Eclipse
 - **Java Version:** 20.0.1
-- **JavaFX Version:** 3.8.0
+- **JavaFX Version:** 21.0.1
 - **Database:** MySQL 8.0.34
 - **Class Diagram:** 
 
