@@ -1,5 +1,5 @@
 # Data Analytics Hub
-> COSC1295 Further Programming Assessment 2 Submission
+> The Data Analytics Hub is a GUI application developed to allow users to import, analyze, and extract insights from social media data.
 
 - **Student Number:** s3947707
 - **IDE:** Eclipse
