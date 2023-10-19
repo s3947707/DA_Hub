@@ -1,6 +1,7 @@
 # Data Analytics Hub
-> **Student Number:** s3947707
+> COSC1295 Further Programming Assessment 2 Submission
 
+- **Student Number:** s3947707
 - **IDE:** Eclipse
 - **Java Version:** 20.0.1
 - **JavaFX Version:** 17.0.8
