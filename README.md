@@ -3,7 +3,7 @@
 - **Java Version:** 20.0.1
 - **JavaFX Version:** 17.0.8
 - **Database:** MySQL 8.0.34
-- **'Class Diagram'**
+- **Class Diagram:** 
 
 ## How to Install and Run the code:
 1. 
