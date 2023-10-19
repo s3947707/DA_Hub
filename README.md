@@ -1,4 +1,5 @@
 # Data Analytics Hub
+> Something
 
 - **Student Number:** s3947707
 - **IDE:** Eclipse
@@ -8,5 +9,5 @@
 - **Class Diagram:** 
 
 ## How to Install and Run the code:
-> 1. Something something
-> 2. Something something
+1. Something something
+2. Something something
