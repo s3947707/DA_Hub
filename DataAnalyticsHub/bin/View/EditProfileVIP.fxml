@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="85.0" prefHeight="400.0" prefWidth="618.0">
+         <children>
+            <Button layoutX="43.0" layoutY="171.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="250.0" style="-fx-background-color: #000137;" text="Save changes" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <TextField layoutX="320.0" layoutY="79.0" prefHeight="35.0" prefWidth="250.0" promptText="Edit username" />
+            <PasswordField layoutX="320.0" layoutY="125.0" prefHeight="35.0" prefWidth="250.0" promptText="Edit password" />
+            <TextField layoutX="43.0" layoutY="125.0" prefHeight="35.0" prefWidth="250.0" promptText="Edit last name" />
+            <TextField layoutX="43.0" layoutY="79.0" prefHeight="35.0" prefWidth="250.0" promptText="Edit first name" />
+            <Text fill="#000137" layoutX="45.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit profile ">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Label layoutX="43.0" layoutY="277.0" text="Would you like to subscribe to the application for a monthly fee of $0?" textFill="#000137">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Text fill="#000137" layoutX="43.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Become a VIP!">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Button layoutX="43.0" layoutY="319.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="250.0" style="-fx-background-color: #000137;" text="Subscribe!" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane prefHeight="400.0" prefWidth="85.0" style="-fx-background-color: #000137;">
+         <children>
+            <Button mnemonicParsing="false" style="-fx-background-color: #000137;">
+               <graphic>
+                  <ImageView fitHeight="99.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Icons/Camera_Logo.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="15.0" layoutY="341.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="55.0" style="-fx-background-color: #000137;">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Icons/Logout_Icon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Text fill="WHITE" layoutX="22.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

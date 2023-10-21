@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Signup_Controller">
+   <children>
+      <BorderPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #ffffff;">
+         <left>
+            <Pane prefHeight="200.0" prefWidth="320.0" style="-fx-background-color: #000137;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="212.0" fitWidth="188.0" layoutX="66.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Icons/Camera_Logo.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="52.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data Analytics Hub">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </left>
+         <center>
+            <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="button_login" layoutX="205.0" layoutY="320.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="110.0" text="Log in" />
+                        <Text fill="#000137" layoutX="79.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Would you like to become a VIP member?" />
+                        <Button fx:id="button_signup" layoutX="65.0" layoutY="320.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="110.0" style="-fx-background-color: #000137;" text="Sign up now!" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <TextField fx:id="text_username" layoutX="65.0" layoutY="171.0" prefHeight="35.0" prefWidth="250.0" promptText="Username" />
+                        <PasswordField fx:id="password_password" layoutX="65.0" layoutY="217.0" prefHeight="35.0" prefWidth="250.0" promptText="Password" />
+                        <TextField fx:id="text_lastname" layoutX="65.0" layoutY="124.0" prefHeight="35.0" prefWidth="250.0" promptText="Last name" />
+                        <TextField fx:id="text_firstname" layoutX="65.0" layoutY="78.0" prefHeight="35.0" prefWidth="250.0" promptText="First name" />
+                        <Text fill="#000137" layoutX="67.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign up ">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Text>
+                        <RadioButton fx:id="radio_yes" layoutX="120.0" layoutY="284.0" mnemonicParsing="false" text="Yes" textFill="#000137" />
+                        <RadioButton fx:id="radio_no" layoutX="223.0" layoutY="285.0" mnemonicParsing="false" text="No" textFill="#000137" />
+                     </children>
+                  </Pane>
+               </children>
+            </StackPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
