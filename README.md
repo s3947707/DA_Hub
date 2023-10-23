@@ -1,7 +1,6 @@
 # The Data Analytics Hub
 > Something
 
-- **Student Number:** s3947707
 - **IDE:** Eclipse
 - **Java Version:** 20.0.1
 - **JavaFX Version:** 21.0.1
