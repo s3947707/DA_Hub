@@ -9,21 +9,22 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="649.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Post_Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Like_Controller_VIP">
    <children>
-      <Pane layoutX="59.0" prefHeight="400.0" prefWidth="617.0">
+      <Pane layoutX="85.0" prefHeight="400.0" prefWidth="617.0">
          <children>
-            <Button fx:id="findPost" layoutX="103.0" layoutY="237.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="375.0" style="-fx-background-color: #000137;" text="Find post" textFill="WHITE">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Button>
-            <Text fill="#000137" layoutX="55.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Find post">
+            <Text fill="#000137" layoutX="44.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number of Likes">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Text>
-            <TextField fx:id="findPostTextField" layoutX="162.0" layoutY="134.0" prefHeight="35.0" prefWidth="250.0" promptText="Post ID" />
+            <Button fx:id="noOfLike" layoutX="112.0" layoutY="227.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="364.0" style="-fx-background-color: #000137;" text="Find Post" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            
+            <TextField fx:id="likeinput" layoutX="169.0" layoutY="143.0" prefHeight="35.0" prefWidth="250.0" promptText="Number of Likes (can be empty)" />
          </children>
       </Pane>
       <Pane prefHeight="400.0" prefWidth="85.0" style="-fx-background-color: #000137;">
@@ -37,11 +38,6 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Text fill="WHITE" layoutX="22.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home">
-               <font>
-                  <Font name="System Bold" size="14.0" />
-               </font>
-            </Text>
             <Button fx:id="button_logout" layoutX="15.0" layoutY="341.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="55.0" style="-fx-background-color: #000137;">
                <graphic>
                   <ImageView fitHeight="34.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
@@ -51,6 +47,11 @@
                   </ImageView>
                </graphic>
             </Button>
+            <Text fill="WHITE" layoutX="22.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
          </children>
       </Pane>
    </children>

@@ -31,7 +31,7 @@ public class Login_Controller implements Initializable {
 		button_login.setOnAction(new EventHandler<ActionEvent>() {
 			@Override
 			public void handle(ActionEvent event) {
-				MainUtility.loginUser(event, text_username.getText(), text_password.getText(), null, null);
+				MainUtility.loginUser(event, text_username.getText(), text_password.getText());
 				
 			}
 		});

@@ -9,16 +9,16 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Dashboard_Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.VIPdashboard_Controller">
    <children>
       <Pane layoutX="85.0" prefHeight="400.0" prefWidth="625.0">
          <children>
-            <Label fx:id="label_welcome" layoutX="172.0" layoutY="25.0" text="Welcome!" textFill="#000137">
+            <Label fx:id="label_welcome" layoutX="256.0" layoutY="25.0" text="Welcome!" textFill="#000137">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Label>
-            <Button fx:id="export_post" layoutX="378.0" layoutY="116.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #000137;">
+            <Button fx:id="export_post" layoutX="328.0" layoutY="117.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #000137;">
                <graphic>
                   <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -27,7 +27,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="find_post_likes" layoutX="378.0" layoutY="236.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #000137;">
+            <Button fx:id="find_post_likes" layoutX="328.0" layoutY="237.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #000137;">
                <graphic>
                   <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -36,7 +36,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="edit_profile" layoutX="158.0" layoutY="236.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #000137;">
+            <Button fx:id="edit_profile" layoutX="108.0" layoutY="237.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #000137;">
                <graphic>
                   <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -45,7 +45,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="add_post" layoutX="158.0" layoutY="116.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #000137;">
+            <Button fx:id="add_post" layoutX="108.0" layoutY="117.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #000137;">
                <graphic>
                   <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -54,7 +54,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="find_post_id" layoutX="268.0" layoutY="236.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #000137;">
+            <Button fx:id="find_post_id" layoutX="218.0" layoutY="237.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #000137;">
                <graphic>
                   <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -63,7 +63,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="remove_post" layoutX="268.0" layoutY="116.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #000137;">
+            <Button fx:id="remove_post" layoutX="218.0" layoutY="117.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #000137;">
                <graphic>
                   <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -72,32 +72,60 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Text fill="#000137" layoutX="170.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Post">
+            <Text fill="#000137" layoutX="120.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Post">
                <font>
                   <Font size="14.0" />
                </font>
             </Text>
-            <Text fill="#000137" layoutX="268.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Remove Post">
+            <Text fill="#000137" layoutX="218.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Remove Post">
                <font>
                   <Font size="14.0" />
                </font>
             </Text>
-            <Text fill="#000137" layoutX="383.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Export Post">
+            <Text fill="#000137" layoutX="333.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Export Post">
                <font>
                   <Font size="14.0" />
                </font>
             </Text>
-            <Text fill="#000137" layoutX="165.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit Profile">
+            <Text fill="#000137" layoutX="115.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit Profile">
                <font>
                   <Font size="14.0" />
                </font>
             </Text>
-            <Text fill="#000137" layoutX="267.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Find Post: ID ">
+            <Text fill="#000137" layoutX="217.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Find Post: ID ">
                <font>
                   <Font size="14.0" />
                </font>
             </Text>
-            <Text fill="#000137" layoutX="369.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Find Post: Likes ">
+            <Text fill="#000137" layoutX="319.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Find Post: Likes ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Button fx:id="importposts" layoutX="438.0" layoutY="117.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #f1c032;">
+               <graphic>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Icons/Import_Icon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Text fill="#000137" layoutX="439.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Import Posts">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Button fx:id="stats" layoutX="438.0" layoutY="237.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #f1c032;">
+               <graphic>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Icons/PieChart_Icon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Text fill="#000137" layoutX="451.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Statistics">
                <font>
                   <Font size="14.0" />
                </font>
@@ -110,7 +138,7 @@
          </children></Pane>
       <Pane prefHeight="400.0" prefWidth="85.0" style="-fx-background-color: #000137;">
          <children>
-            <Button mnemonicParsing="false" style="-fx-background-color: #000137;">
+            <Button fx:id="home" mnemonicParsing="false" style="-fx-background-color: #000137;">
                <graphic>
                   <ImageView fitHeight="99.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -119,7 +147,7 @@
                   </ImageView>
                </graphic>
             </Button>
-          
+            
             <Button fx:id="button_logout" layoutX="15.0" layoutY="341.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="55.0" style="-fx-background-color: #000137;">
 			    <graphic>
 			        <ImageView fitHeight="34.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
@@ -129,6 +157,7 @@
 			        </ImageView>
 			    </graphic>
 			</Button>
+          
             <Text fill="WHITE" layoutX="22.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home">
                <font>
                   <Font name="System Bold" size="14.0" />
